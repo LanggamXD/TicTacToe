@@ -1,0 +1,81 @@
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header */
+.header {
+	padding: 3px;
+	border: 1px solid;
+	border-radius: 25px;
+	margin: 10px;
+	background-color: black;
+}
+
+.header h1 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin: 10px;
+}
+
+/* konten */
+
+.konten {
+	border: 1px solid;
+	border-radius: 25px;
+}
+
+/* gameboard */
+
+.game-board {
+	display: block;
+	justify-content: center;
+	margin: 70px;
+	position: center;
+	margin-top: 10%;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: 30%;
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #f0f0f0;
+}
+
+/* button ulang */
+
+.ulang {
+	width: 70%;
+	font-family: Sans-Serif;
+	text-align: center;
+	margin: 10%;
+	margin-left: 17%;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: italic;
+	border-radius: 25px;
+	position: center;
+	background-color: black;
+	color: white;
+}
+
+.ulang:hover {
+	color: black;
+	background-color: transparent;
+}
