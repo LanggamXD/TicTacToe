@@ -1,65 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Tic Tac Toe</title>
-		<link
-			rel="stylesheet"
-			href="Style.css" />
-	</head>
-	<body>
-		<div class="header">
-			<h1>Tic Tac Toe</h1>
-		</div>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Tic Tac Toe</h1>
+    </div>
 
-		<div>
+    <div></div>
+    <div class="konten">
+      <div class="game-board">
+        <div class="row">
+          <div class="cell" id="cell-0"></div>
+          <div class="cell" id="cell-1"></div>
+          <div class="cell" id="cell-2"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell-3"></div>
+          <div class="cell" id="cell-4"></div>
+          <div class="cell" id="cell-5"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell-6"></div>
+          <div class="cell" id="cell-7"></div>
+          <div class="cell" id="cell-8"></div>
+        </div>
+      </div>
+      <button onclick="location.reload()" class="ulang">Ulang!</button>
+    </div>
 
-		</div>
-		<div class="konten">
-			<div class="game-board">
-				<div class="row">
-					<div
-						class="cell"
-						id="cell-0"></div>
-					<div
-						class="cell"
-						id="cell-1"></div>
-					<div
-						class="cell"
-						id="cell-2"></div>
-				</div>
-				<div class="row">
-					<div
-						class="cell"
-						id="cell-3"></div>
-					<div
-						class="cell"
-						id="cell-4"></div>
-					<div
-						class="cell"
-						id="cell-5"></div>
-				</div>
-				<div class="row">
-					<div
-						class="cell"
-						id="cell-6"></div>
-					<div
-						class="cell"
-						id="cell-7"></div>
-					<div
-						class="cell"
-						id="cell-8"></div>
-				</div>
-			</div>
-			<button
-				onclick="location.reload()"
-				class="ulang">
-				Ulang!
-			</button>
-		</div>
-
-		<div class="footer">
-			<p>Created by <span><a href="https://github.com/langgamxd" target="_blank">langgamXD</a></span></p>
-		</div>
-		<script src="Javascript.js"></script>
-	</body>
+    <div class="footer">
+      <p>
+        Created by
+        <span
+          ><a href="https://github.com/langgamxd" target="_blank"
+            >langgamXD</a
+          ></span
+        >
+      </p>
+    </div>
+    <div></div>
+    <script src="Javascript.js"></script>
+  </body>
 </html>
